@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components'
 import Paper from 'material-ui/Paper';
 import { Card, CardMedia, CardTitle } from 'material-ui/Card';
+import Chatroom from '../config/chatrooms';
 
 
 const Wrapper = styled.div`

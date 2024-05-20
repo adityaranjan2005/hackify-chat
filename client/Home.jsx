@@ -1,6 +1,7 @@
 import React from 'react';
 
 import ChatroomPreview from './ChatroomPreview'
+import Chatroom from '../config/chatrooms';
 
 export default ({
   chatrooms,
@@ -8,11 +9,11 @@ export default ({
 }) => (
   <div>
     {
-      chatrooms.map(chatroom => (
+      Chatroom.map(chat => (
         <ChatroomPreview
-          key={chatroom.name}
-          chatroom={chatroom}
-          onEnter={() => onEnterChatroom(chatroom.name)}
+          key={chat.name}
+          chatroom={chat}
+          onEnter={() => onEnterChatroom(chat.name)}
         />
       ))
     }

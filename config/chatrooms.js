@@ -1,4 +1,4 @@
-module.exports = [
+let Chatroom=module.exports = [
   {
     name: 'Web Island',
     image: 'chatrooms/terminus.jpg'
@@ -17,3 +17,4 @@ module.exports = [
   }
 ]
 
+export default Chatroom;

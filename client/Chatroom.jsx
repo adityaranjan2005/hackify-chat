@@ -147,7 +147,7 @@ export default class Chatroom extends React.Component {
         <ChatWindow>
           <Header>
             <Title>
-              { this.props.chatroom.name }
+              {this.props.chatroom.name }
             </Title>
             <RaisedButton
               primary
